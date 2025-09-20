@@ -33,5 +33,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: loader-artifact
-          path: ${{ github.workspace }}/loader
+          path: ${{ DSTROOT }}
 
