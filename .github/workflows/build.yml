@@ -30,7 +30,7 @@ jobs:
           make package PLATFORM=appletvos PACKAGE_NAME=palera1nLoaderTV
 
       - name: upload result
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v3
         with:
           name: loader-artifact
           path: ${{ github.workspace }}/loader
